@@ -1,0 +1,59 @@
+/* src/components/RuleBuilder.css */
+.rule-builder {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: #f9fafb;
+}
+
+.condition-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.condition-selector label {
+  font-weight: 500;
+}
+
+.condition-selector select {
+  padding: 4px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+.rule-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.rule-row select,
+.rule-row input {
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+.remove-rule-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #ef4444;
+}
+
+.add-rule-btn {
+  background: none;
+  border: 1px dashed #d1d5db;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.add-rule-btn:hover {
+  background-color: #f3f4f6;
+}
