@@ -1,0 +1,22 @@
+xeno-crm/
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── middleware/
+│   ├── consumers/
+│   ├── app.js
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── utils/
+│   ├── package.json
+│   └── vite.config.js
+├── docker-compose.yml
+└── README.md
